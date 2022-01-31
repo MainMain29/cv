@@ -1,0 +1,356 @@
+body
+{
+    padding : 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: hsl(219, 61%, 11%);
+    color : white;
+    width : 100%;
+}
+div.prenom
+{
+    text-align: center;
+    margin-left : auto;
+    margin-right: auto;
+    height : 100px;
+    width: 100%;
+    font-size : 30px;
+    color:white;
+    /* text-shadow:  0 0 7px #fff, 0 0 20px #fff,  0 0 40px rgb(230, 18, 219),   
+    0 0 80px rgb(230, 18, 202), 0 0 100px rgb(230, 18, 230);  */
+    font-family: 'Orbitron', sans-serif;
+    vertical-align : middle;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div#intitule{
+    font-size: 15px ;
+}
+
+div.block1
+{
+    display : flex;
+    margin-top: 10px;
+}
+
+div.presentation
+{
+    text-align: center;
+    width : 50%;
+    height : 200px;
+    display : flex;
+    align-items : center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+ul
+{
+    padding : 0px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+h2
+{   
+    text-shadow:  0 0 7px #fff;
+    font-family: 'Orbitron', sans-serif;
+    width : 300px;
+    text-align: left;
+    padding : 5px;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+    background: linear-gradient(55deg, rgb(204 144 39) 0%, rgb(205 145 31) 100%,
+     rgba(103,0,154,0) 100%);
+}
+
+h2.exp
+{
+    width : 450px;
+}
+
+div.contact
+{
+    text-align: center;
+    width: 50%;
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div.img
+{
+    /*position: absolute;*/
+    left: 20%;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+img.photo
+{
+    margin-top: 10px;
+    border-radius: 50%;
+    /* border : solid 2px rgba(97,1,151,1);  */
+    /* box-shadow:  0 0 7px #fff, 0 0 10px #fff,  0 0 20px rgb(230, 18, 219),   
+    0 0 60px rgb(230, 18, 202), 0 0 80px rgb(230, 18, 230);  */
+    width: 200px;
+    height : auto;
+}
+div.blockessai
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+div.comptech
+{
+    width : 33%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+div.comptech div.contenantlogo
+{
+    height: 100px;
+    width: auto;
+}
+img.logo
+{
+    height: auto;
+    width: 100px;
+}
+div.block2
+{
+    display : flex;
+    background: rgb(205 145 39);
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top : 20px;
+    height : auto;
+}
+h2.comppro
+{
+    width: 100%;
+    background : rgba(97,1,151,0);
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);  
+}
+div.competencepro
+{
+    text-align: center;
+    width : 50%;
+    display : flex;
+    align-items : center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+h2.forma
+{
+    width: 100%;
+    text-align: center;
+    background : rgba(97,1,151,0); 
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0% 100%);
+
+}
+div.formation
+{
+    text-align: center;
+    width : 50%;
+    display : flex;
+    align-items : center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+div.hobbies
+{
+    margin-bottom : 10px;
+}
+i.fa-running, i.fa-swimmer, i.fa-biking, i.fa-guitar, i.fa-chess
+{
+    margin-left: 20px;
+    letter-spacing: 45px;
+    font-size: 40px;
+    color: white;
+    /* text-shadow:  0 0 7px #fff, 0 0 10px #fff,  0 0 42px rgb(230, 18, 219),   
+    0 0 77px rgb(230, 18, 202), 0 0 100px rgb(230, 18, 230); */
+
+}
+i.fa-envelope,i.fa-phone-alt,i.fa-graduation-cap
+{
+text-shadow:  0 0 7px #fff;
+}
+i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
+i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3
+{
+    /* text-shadow:  0 0 7px #fff, 0 0 10px #fff,  0 0 42px rgb(230, 18, 219),   
+    0 0 77px rgb(230, 18, 202), 0 0 100px rgb(230, 18, 230); */
+    font-size :120px;
+    letter-spacing : -30px;
+}
+div.prenom
+{
+height: 150px;
+font-size: 20px;
+}
+
+@media screen and (max-width: 640px) { 
+    div.block1 {
+        display: flex;
+        flex-direction: column;
+    }
+    div.blockessai {
+        display: flex;
+        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    div.presentation {
+        align-items: flex-start;
+        width: 100%;
+    }
+    div.contact {
+        align-items: stretch;
+        width: 100%;
+    }
+     
+    div.comptech {
+        width: 99%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    div.img {
+        margin-left: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    div.block2 {
+        text-align: center;
+
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    div.competencepro {
+
+        width: 100%;
+        flex-direction: flex-start;
+    }
+    div.formation {
+        width: 100%;
+        align-items: stretch;
+    }
+}
+
+
+@media print {
+    body {
+
+        color : black;
+    }
+        
+    div.prenom
+    {
+        height : 75px;
+        font-size : 30px;
+        color:rgb(0, 0, 0);
+        text-shadow:  none;
+    }
+    div.presentation
+    {
+        width : 50%;
+        height : 130px;
+    }
+    h2
+    {   
+        margin-top : 8px;
+        margin-bottom: 0px;
+        text-shadow: none; 
+        font-family: 'Orbitron', sans-serif;
+        background: linear-gradient(55deg, rgba(97,1,151,1) 0%, rgba(97,1,151,1) 60%, rgba(103,0,154,0) 100%);
+        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    }
+
+    i.fa-running, i.fa-swimmer, i.fa-biking, i.fa-guitar, i.fa-chess
+    {
+        text-shadow: none;
+        font-size: 30px;
+        color: black;
+    }
+    i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
+i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3
+{
+    /* text-shadow:  0 0 7px #fff, 0 0 10px #fff,  0 0 42px rgb(230, 18, 219),   
+    0 0 77px rgb(230, 18, 202), 0 0 100px rgb(230, 18, 230); */
+    font-size :76px;
+    letter-spacing : -10px;
+}
+
+    i.fa-envelope,i.fa-phone-alt,i.fa-graduation-cap
+    {
+    text-shadow: none;
+    }
+    h2.forma
+{
+    margin-bottom: 0px;
+}
+    img.photo
+    {
+        margin-top: 0px;
+        box-shadow: none;
+        height : 150px;
+        width : auto; 
+    }
+
+    div.blockessai
+    {
+        height : 150px;
+    }
+
+    div.comptech
+    {
+        width : 33%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    div.comptech div.contenantlogo
+    {
+        height: 75px;
+        width: auto;
+    }
+    div.comptech div.contenantlogo
+    {
+        height: 75px;
+        width: auto;
+    }
+    img.logo
+    {
+        height: auto;
+        width: 75px;
+    }
+    h2.exp
+{
+    width : 450px;
+    margin-bottom : 0px;
+}
+div.hobbies
+{
+    margin-bottom : 0px;
+}
+
+}
