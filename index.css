@@ -1,6 +1,7 @@
 body
 {
-    padding : 5px;
+    padding : 0px;
+    margin : 0px;
     font-family: Arial, Helvetica, sans-serif;
     background: hsl(219, 61%, 11%);
     color : white;
@@ -194,7 +195,8 @@ i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
 i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3
 {
 
-    font-size :140px;
+    font-size :120px;
+    letter-spacing: -30px;
  
 }
 div.prenom
@@ -250,6 +252,9 @@ font-size: 20px;
     div.formation {
         width: 100%;
         align-items: stretch;
+    }
+    h2.exp {
+        width : 400px;
     }
 }
 
