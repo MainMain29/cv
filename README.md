@@ -1,3 +1,3 @@
 # cv
 mon Cv en ligne
-![Demo Animation](../assets/max.jpeg)
+![Demo Animation](../main/max.jpeg)
