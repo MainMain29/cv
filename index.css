@@ -14,7 +14,7 @@ body
     border-radius : 10%;
     border-style: none;
     margin-left : 80%;
-    margin-top : 20px;
+    margin-top : 10px;
     position : absolute;
 }
 .imprimer:hover{
@@ -28,14 +28,11 @@ div.prenom
     text-align: center;
     margin-left : auto;
     margin-right: auto;
-    
-    height : 100px;
     font-size : 25px;
-    width: 100%;
-    
+    width: 100%;   
     font-family: 'Orbitron', sans-serif;
     vertical-align : middle;
-    display : flex;
+    padding-top : 20px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -217,9 +214,6 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
 
 
 @media screen and (max-width: 640px) { 
-    .imprimer{
-        margin-top : 10px;
-    }
     div.prenom
     {
         height : 100px;
@@ -307,7 +301,6 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
         margin-bottom: 0px;
         text-shadow: none; 
         font-family: 'Orbitron', sans-serif;
-        background: linear-gradient(55deg, rgba(97,1,151,1) 0%, rgba(97,1,151,1) 60%, rgba(103,0,154,0) 100%);
         clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
         background : white;
     }
