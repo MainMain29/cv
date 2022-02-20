@@ -7,17 +7,32 @@ body
     color : white;
     width : 100%;
 }
+.imprimer{
+    height : 30px;
+    color : white;
+    background : rgb(204 144 39);
+    border-radius : 10%;
+    border-style: none;
+    margin-left : 80%;
+    margin-top : 20px;
+    position : absolute;
+}
+.imprimer:hover{
+    background: hsl(219, 61%, 11%) ;
+    color : rgb(204 144 39);
+    border : solid 2px rgb(204 144 39);
+}
+
 div.prenom
 {
     text-align: center;
     margin-left : auto;
     margin-right: auto;
+    
     height : 100px;
+    font-size : 25px;
     width: 100%;
-    font-size : 30px;
-    color:white;
-    /* text-shadow:  0 0 7px #fff, 0 0 20px #fff,  0 0 40px rgb(230, 18, 219),   
-    0 0 80px rgb(230, 18, 202), 0 0 100px rgb(230, 18, 230);  */
+    
     font-family: 'Orbitron', sans-serif;
     vertical-align : middle;
     display : flex;
@@ -199,13 +214,17 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
     
  
 }
-div.prenom
-{
-height: 150px;
-font-size: 20px;
-}
+
 
 @media screen and (max-width: 640px) { 
+    .imprimer{
+        margin-top : 10px;
+    }
+    div.prenom
+    {
+        height : 100px;
+        font-size : 20px;
+    }
     div.block1 {
         display: flex;
         flex-direction: column;
@@ -263,6 +282,10 @@ font-size: 20px;
     body {
 
         color : black;
+        background-color: white;
+    }
+    .imprimer{
+        visibility : hidden;
     }
     
         
@@ -286,6 +309,7 @@ font-size: 20px;
         font-family: 'Orbitron', sans-serif;
         background: linear-gradient(55deg, rgba(97,1,151,1) 0%, rgba(97,1,151,1) 60%, rgba(103,0,154,0) 100%);
         clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+        background : white;
     }
 
     i.fa-running, i.fa-swimmer, i.fa-biking, i.fa-guitar, i.fa-chess
@@ -348,14 +372,18 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
         height: auto;
         width: 75px;
     }
+    div.block2
+    {
+        background: white;
+    }
     h2.exp
-{
+    {
     width : 450px;
     margin-bottom : 0px;
-}
-div.hobbies
-{
-    margin-bottom : 0px;
-}
+    }
+    div.hobbies
+    {
+        margin-bottom : 0px;
+    }
 
 }
