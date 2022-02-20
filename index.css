@@ -216,7 +216,7 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
 @media screen and (max-width: 640px) { 
     div.prenom
     {
-        height : 100px;
+        height : auto;
         font-size : 20px;
     }
     div.block1 {
@@ -231,6 +231,7 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
     }
     div.presentation {
         align-items: flex-start;
+        height : auto;
         width: 100%;
     }
     div.contact {
