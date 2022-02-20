@@ -70,7 +70,7 @@ li
 
 h2
 {   
-    text-shadow:  0 0 7px #fff;
+    /* text-shadow:  0 0 7px #fff; */
     font-family: 'Orbitron', sans-serif;
     width : 300px;
     text-align: left;
