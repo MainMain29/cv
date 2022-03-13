@@ -209,7 +209,7 @@ i.fa-envelope,i.fa-phone-alt,i.fa-graduation-cap, i.fa-car-side
 text-shadow:  0 0 7px #fff;
 }
 i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
-i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3
+i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3, i.icon-net
 {
 
     font-size :120px;
@@ -318,14 +318,11 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
         color: black;
     }
     i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
-i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3
+    i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3, i.icon-net
 {
-    /* text-shadow:  0 0 7px #fff, 0 0 10px #fff,  0 0 42px rgb(230, 18, 219),   
-    0 0 77px rgb(230, 18, 202), 0 0 100px rgb(230, 18, 230); */
     font-size :76px;
     letter-spacing : -10px;
 }
-
     i.fa-envelope,i.fa-phone-alt,i.fa-graduation-cap
     {
     text-shadow: none;

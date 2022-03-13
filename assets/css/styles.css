@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "packcv";
-  src:url("../fonts/packcv.eot");
-  src:url("../fonts/packcv.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/packcv.woff") format("woff"),
-    url("../fonts/packcv.ttf") format("truetype"),
-    url("../fonts/packcv.svg#pack-cv") format("svg");
+  src:url("./fonts/packcv.eot");
+  src:url("./fonts/packcv.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/packcv.woff") format("woff"),
+    url("./fonts/packcv.ttf") format("truetype"),
+    url("./fonts/packcv.svg#packcv") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -19,7 +19,7 @@
   font-weight: normal !important;
   font-variant: normal !important;
   text-transform: none !important;
-  speak: none;
+  /* speak: none; */
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,7 +32,7 @@
   font-weight: normal !important;
   font-variant: normal !important;
   text-transform: none !important;
-  speak: none;
+  /* speak: none; */
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -77,12 +77,15 @@
 .icon-mysql:before {
   content: "\6d";
 }
-.icon-nodejs:before {
-  content: "\6e";
-}
 .icon-photoshop:before {
   content: "\6f";
 }
 .icon-php:before {
   content: "\70";
+}
+.icon-nodejs:before {
+  content: "\6e";
+}
+.icon-net:before {
+  content: "\71";
 }
