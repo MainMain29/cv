@@ -209,7 +209,7 @@ i.fa-envelope,i.fa-phone-alt,i.fa-graduation-cap, i.fa-car-side
 text-shadow:  0 0 7px #fff;
 }
 i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
-i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3, i.icon-net
+i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3, i.icon-net, i.icon-tailwind-css-2
 {
 
     font-size :120px;
@@ -318,7 +318,8 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
         color: black;
     }
     i.icon-javascript, i.icon-nodejs, i.icon-react, i.icon-illustrator,
-    i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3, i.icon-net
+    i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.icon-css3, i.icon-net,
+    i.icon-tailwind-css-2
 {
     font-size :76px;
     letter-spacing : -10px;
