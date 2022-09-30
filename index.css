@@ -280,7 +280,7 @@ i.icon-indesign, i.icon-photoshop, i.icon-mysql, i.icon-csharp, i.icon-html5, i.
 
 @media print {
     body {
-
+        width: 100%;
         color : black;
         background-color: white;
     }
